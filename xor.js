@@ -121,7 +121,7 @@ function copyOutput2() {
     const copyBtn = document.querySelector('.copy-btn.copy2');
     
     const t = "cole43623.github.io/cifrario?t=" + 
-        encodeURIComponent(output.textContent);   // <--- QUI LA FIX
+        encodeURIComponent(output.textContent);
 
     navigator.clipboard.writeText(t).then(() => {
         const originalText = copyBtn.textContent;
