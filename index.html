@@ -159,6 +159,14 @@
             transition: all 0.3s;
         }
 
+		.copy1 {
+			top: 10px;
+		}
+
+		.copy2 {
+			top: 50px; /* O quanto vuoi tu */
+		}
+
         .copy-btn:hover {
             background: #5568d3;
         }
@@ -191,7 +199,8 @@
         <div class="output-group">
             <label>Output:</label>
             <div class="output-container">
-                <button class="copy-btn" onclick="copyOutput()">Copia</button>
+                <button class="copy-btn copy1" onclick="copyOutput()">Copia</button>
+                <button class="copy-btn copy2" onclick="copyOutput2()">Copia link</button>
                 <div id="output"></div>
             </div>
         </div>
